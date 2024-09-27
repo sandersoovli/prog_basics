@@ -44,5 +44,13 @@ function greet(name, lastname) {
 
 greet('John', 'Smith');
 
-let a = prompt('what is the letter?');
-console.log(a)
+let aPrompt = prompt('what is the letter?');
+console.log(aPrompt)
+
+var a = 15;
+var b = 20;
+
+// swap a and b
+var temp = a;
+a = b;
+b = temp;
