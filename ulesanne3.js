@@ -4,17 +4,17 @@ let result = prompt("tehe?");
 
 switch(result){
 case "a":
-   console.log(x + y);
-  break;
+        console.log(x + y);
+        break;
 case "s":
-    console.log(x - y);   
-    break;
+        console.log(x - y);   
+        break;
 case "m":
-    console.log(x * y);
-    break;
+        console.log(x * y);
+        break;
 case "d":
-    console.log(x / y);
-    break;
+        console.log(x / y);
+        break;
 case "e":
         console.log(x ** y);
         break;
