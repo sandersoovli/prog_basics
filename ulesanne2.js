@@ -1,5 +1,5 @@
-
-let vili = prompt("vili?");
+//let vili = prompt("vili?");
+let vili = "pirn";
 switch(vili){
 case "pirn":
    console.log("pirn on puuvili");
@@ -17,3 +17,15 @@ default:
     console.log("pole vili");
     break;
 } 
+
+let vanus = 16;
+let isTaiskasvanu = vanus >= 18 ? true : false;
+if (isTaiskasvanu) {
+    console.log("täiskasvanu")
+} else {
+    console.log("alaealine")
+}
+
+let alghind = 20;
+let lõpphind = isTaiskasvanu ? alghind: alghind -10;
+console.log(`piletihind on ${lõpphind}`);
