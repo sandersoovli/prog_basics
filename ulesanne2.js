@@ -1,5 +1,5 @@
-//let vili = prompt("vili?");
-let vili = "pirn";
+let vili = prompt("vili?");
+
 switch(vili){
 case "pirn":
    console.log("pirn on puuvili");
@@ -18,7 +18,7 @@ default:
     break;
 } 
 
-let vanus = 16;
+let vanus = prompt("vanus?");
 let isTaiskasvanu = vanus >= 18 ? true : false;
 if (isTaiskasvanu) {
     console.log("täiskasvanu")
