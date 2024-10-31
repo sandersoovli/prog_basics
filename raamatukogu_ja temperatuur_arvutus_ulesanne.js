@@ -28,3 +28,12 @@ const averageTemperature = total / temperatures.length; // Keskmine temperatuur
 // Kuvame keskmise temperatuuri
 console.log(`Keskmine temperatuur: ${averageTemperature.toFixed(2)}`); // Kahendkohaline täpsus
 // jätka 7. ja 8. ülesandega
+
+//temperatuuri teisendamine faherheiti
+const temperatureInFahrenheit = temperatures.map(temp => temp * 9 / 5 + 32);
+console.log("Temperatuurid fahrenheit kraadides:", temperatureInFahrenheit);
+
+// temperatuurid kahanevalt
+
+temperatures.sort((a, b) => b - a);
+console.log("Temperatuurid kahaevalt",temperatures);
